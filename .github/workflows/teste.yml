@@ -18,10 +18,7 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Instalar dependências
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+
 
     - name: Executar Teste de Senha
       run: python script_de_teste.py
