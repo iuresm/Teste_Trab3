@@ -21,4 +21,4 @@ jobs:
 
 
     - name: Executar Teste de Senha
-      run: python script_de_teste.py
+      run: python check.py
